@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes demo{
+            0%{left: 0px; top:0px;}
+            25%{left:500px; top:500px; /* transform: scale(2); */}
+            50%{left: 1000px; top:0px;}
+           /* 75%{left: 0px; top:500px;}
+            100%{left: 0px; top:0px;} */
+        } 
+        .cir {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: red;
+            animation: demo 5s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cir"></div>
+</body>
+
+</html>

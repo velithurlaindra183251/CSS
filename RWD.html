@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container{
+            width: 1000px;
+            height: auto;
+            margin: auto;
+        }
+        .one{
+            width: 1000px;
+            height: 200px;
+        }
+        .two{
+            width: 500px;
+            height: 400px;
+            background-color: rgb(214, 23, 189);
+            float: left;
+        }
+        .three{
+            width: 500px;
+            height: 400px;
+            background-color: rgb(29, 221, 12);
+            float: right;
+        }
+      @media screen and (max-width:999px){
+        .container{
+            width:100%;
+            height: auto;
+            margin: auto;
+   
+        }
+        .one{
+            width: 100%;
+            height: auto;
+        }
+        img{
+            width: 100%;
+        }
+        .two{
+            width: 30%;
+            height: 400px;
+             background-color: rgb(212, 21, 21);
+             float: left;
+           
+         
+        }
+        .three{
+            width:70%;
+            height: 400px;
+            background-color: rgb(233, 108, 6);
+            float: left;
+         
+      }
+    }
+    @media screen and (max-width:666px) {
+   
+       
+       .one{
+            width: 100%;
+            height: 400px;
+            background-color: yellow;
+        }
+        .two{
+            width:100%;
+            height: 400px;
+            background-color: rgb(240, 79, 5);
+         
+        }
+        .three{
+            width:70%;
+            height: 400px;
+            background-color:rgb(27, 216, 10)
+           
+    }
+    }
+    @media screen and (max-width:600px) {
+    .container{
+            width:100%;
+   
+        }
+        .one{
+            width: 100%;
+        }
+        .two{
+            width: 100%;
+         
+        }
+        .three{
+            width:100%;
+        }
+    }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one"><img src="image banner.jpg" alt=""></div>
+        <div class="two">Left Div</div>
+        <div class="three">Right Div</div>
+       
+ 
+    </div>
+</body>
+</html>

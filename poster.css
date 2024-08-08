@@ -1,0 +1,29 @@
+.container {
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+
+    h1 {
+        color: #d4431f;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    h3 {
+        color: gold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+.one{
+    width: 450px;
+    height: 250px;
+    display: block;
+    float: left;
+    margin-left: 60px;
+    img{
+        width: 150px;
+        height: 130px;
+        margin-top: 30px;
+    }
+}

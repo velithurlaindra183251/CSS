@@ -1,0 +1,111 @@
+.container {
+    width: 900px;
+    height: 800px;
+    background-color: rgb(86, 44, 141);
+    margin: auto;
+}
+
+.one {
+    color: #ebebd0;
+    width: 900px;
+    height: 100px;
+    margin-left: 330px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 0);
+    font-family: "Bebas Neue", sans-serif;
+    line-height:50px ;
+    margin-left: 40px;
+}
+
+h2 {
+    color: rgb(240, 233, 236);
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    line-height: 40px;
+}
+
+h3 {
+    color: white;
+    margin-left: 5px;
+   
+}
+
+p {
+    color: #fbfdfc;
+    margin-left: 10px;
+}
+
+input {
+    background-color: red;
+    margin-left: 10px;
+}
+
+input:hover {
+    background-color: white;
+    margin-left: 10px;
+}
+
+.indra {
+    width: 270px;
+    height: 550px;
+    float: left;
+    background-color: rgb(110, 15, 219);
+    margin: 10px;
+    font-family: "Platypi", serif;
+}
+
+.indra img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 33px;
+
+}
+.submit{
+    width: 100px;
+    float: center;
+}
+
+.vinod {
+    width: 270px;
+    height: 550px;
+    float: left;
+    background-color: rgb(110, 15, 219);
+    margin: 15px;
+    font-family: "Platypi", serif;
+}
+
+.vinod img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+.raju {
+    width: 270px;
+    height: 550px;
+    float: left;
+    background-color: rgb(110, 15, 219);
+    margin: 15px;
+    font-family: "Platypi", serif;
+}
+
+.raju img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+.giri{
+    text-align: center;
+    font-family: "Platypi", serif;
+}
+hr{
+    width:100px;
+    background-color: #ebf1ef;
+}
+
